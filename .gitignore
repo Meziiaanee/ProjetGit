@@ -1,6 +1,73 @@
 # Node rules:
 ## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
+# Ignore les fichiers temporaires
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore les répertoires de dépendances de Composer
+/vendor/
+
+# Ignore les répertoires de dépendances de Node.js (si applicable)
+node_modules/
+
+# Ignore les fichiers de configuration de l'IDE
+/.idea/
+/.vscode/
+
+# Ignore les fichiers de configuration de l'éditeur
+/.editorconfig
+/.gitattributes
+/.gitignore
+/.DS_Store
+Thumbs.db
+
+# Ignore les fichiers de configuration de l'environnement local
+.env
+.env.local
+.env.*.local
+
+# Ignore les fichiers générés par PHPStorm
+/.phpstorm.meta.php
+
+# Ignore les répertoires de cache
+/cache/
+/tmp/
+
+# Ignore les fichiers de compilation (par exemple, si vous utilisez Webpack)
+public/build/
+
+# Ignore les fichiers de déploiement spécifiques
+/deploy/
+
+# Ignore les fichiers de tests et rapports
+/tests/
+/coverage/
+/phpunit.xml
+/phpunit.xml.dist
+
+# Ignore les fichiers de migration et de base de données (si applicable)
+/database/*.sqlite
+/database/migrations/
+/database/seeds/
+
+# Ignore les fichiers de logs
+/storage/logs/
+
+# Ignore les fichiers de sessions
+/storage/framework/sessions/
+
+# Ignore les fichiers de stockage
+/storage/app/
+
+# Ignore les fichiers de Symfony (si applicable)
+/var/
+
+# Ignore les autres fichiers spécifiques au projet
+/.env.backup
+/.env.production
 
 ## Dependency directory
 ## Commenting this out is preferred by some people, see
