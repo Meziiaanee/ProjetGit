@@ -20,7 +20,7 @@ ProjetGit is a collaborative prject focused on showcasing the effective use of G
 
 ## Installation
 
-### 1. Cloning the Repository
+### 1 Cloning the Repository
 
 To get started, clone the repository to your local machine :
 
