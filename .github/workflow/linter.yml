@@ -1,0 +1,18 @@
+# Exemple de configuration pour un linter (ESLint)
+name: Linter
+
+on: [push]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: npm install
+      - name: Run linter
+        run: npm run lint
+
+
+
