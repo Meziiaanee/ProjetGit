@@ -2,7 +2,7 @@
 
 ## Description
 
-ProjetGit is a collaborative project focused on showcasing the effective use of Git in a team environment. The project follows best practices for version control, including signed commits from all members, issue tracking, pull requests, continuous integration, and more.
+ProjetGit is a collaborative prject focused on showcasing the effective use of Git in a team environment. The project follows best practices for version control, including signed commits from all members, issue tracking, pull requests, continuous integration, and more.
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ ProjetGit is a collaborative project focused on showcasing the effective use of 
 
 ### 1. Cloning the Repository
 
-To get started, clone the repository to your local machine:
+To get started, clone the repository to your local machine :
 
 ```sh
 git clone https://github.com/Meziiaanee/ProjetGit.git
