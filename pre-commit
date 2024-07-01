@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Chemin vers votre linter 
+LINTER="eslint"
+
+# Exécute le linter sur tous les fichiers modifiés dans le commit
+git diff --cached --name-only --diff-filter=ACM | grep '\.js$' | xargs $LINTER
+
+# Capture le code de sortie du linter
+LINTER_RESULT=$?
+
+
+# Si le linter trouve des erreurs, annule le commit
+if [ $LINTER_RESULT -ne 0 ]; then
+    echo "Erreur : Le linter a détecté des problèmes. Annulation du commit."
+    exit 1
+fi
+
+# Si aucune erreur, continue le commit
+exit 0
