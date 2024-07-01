@@ -5,7 +5,7 @@
 [Description détaillée de l'issue]
 
 ### Contexte :
-- **Système d'exploitation :** [Insérer système d'exploitation utilisé]
+- **Système dexploitation :** [Insérer système dexploitation utilisé]
 - **Navigateur :** [Insérer navigateur et sa version]
 
 ### Captures d'écran :
