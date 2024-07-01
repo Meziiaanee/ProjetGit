@@ -18,6 +18,7 @@ ProjetGit is a collaborative prject focused on showcasing the effective use of G
 - [License](#license)
 - [Contact](#contact)
 
+
 ## Installation
 
 ### 1. Cloning the Repository
