@@ -1,4 +1,4 @@
-### Titre du PR
+### Titre du Pull Request
 <!-- Titre descriptif et concis -->
 
 ### Description
