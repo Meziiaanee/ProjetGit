@@ -1,6 +1,6 @@
 ## Code de Conduite
 
-Notre communauté s'engage à offrir un environnement accueillant et sans harcèlement pour tous, indépendamment de leur identité et de leur expression.
+Notre communauté s'engage à offrir un environnement accueillant et sans harcèlement pour tous, indépendamment de leur identité et de leur expression..
 
 ### Nos Standards
 
